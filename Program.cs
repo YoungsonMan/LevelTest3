@@ -131,11 +131,12 @@ namespace LevelTest3
         {
             string[] answer = new string[] { };
             answer = strings;
-            Array.Sort(strings, (x, y) => x.Substring(n).CompareTo(y.Substring(n)));
-
-
+            Array.Sort(answer, (x, y) => x.Substring(n).CompareTo(y.Substring(n)));
+            
 
             return answer;
+
+            /// 음
         }
     }
 
